@@ -1,0 +1,44 @@
+#side-nav {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  background-color: white;
+  width: 72px;
+  padding-top: 5px;
+  z-index: 10;
+}
+
+.grouping {
+  display: flex;
+  justify-content: center;
+  height: 74px;
+}
+
+.grouping:hover {
+  background-color: rgb(247, 247, 247);
+  cursor: pointer;
+}
+
+.home-group,
+.explore-group,
+.sub-group,
+.origin-group,
+.yt-music-group,
+.library-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#side-nav img {
+  display: block;
+  width: 24px;
+  padding-bottom: 5px;
+}
+
+#side-nav div {
+  font-size: 0.85em;
+}
